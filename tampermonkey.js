@@ -3,8 +3,8 @@
 // @namespace     http://tampermonkey.net/
 // @version       2.0
 // @description  Overlay mit Map-Auswahl, Panning, Zoom, Resize und Local Storage.
-// @author        Moep (Udapted by AI)
-// @match         https://www.diesiedleronline.de/de/startseite
+// @author        YourName (Adapted by AI)
+// @match         https://www.diesiedleronline.de/de/spielen
 // @grant         none
 // ==/UserScript==
 
@@ -15,7 +15,7 @@
     // ** ⚠️ KONFIGURATION ⚠️ **
     // *******************************************************************
     // Basis-URL Ihrer GitHub-Repo (Muss mit / enden, z.B. für "assets/maps/...")
-    const BASE_MAP_URL = 'https://raw.githubusercontent.com/yournamehere/DSO-Karten/refs/heads/main/';
+    const BASE_MAP_URL = 'https://raw.githubusercontent.com/VolkanSah/DSO-Karten/refs/heads/main/';
 
     // JSON-Daten der Karten (als String)
     const MAP_JSON_STRING = `
